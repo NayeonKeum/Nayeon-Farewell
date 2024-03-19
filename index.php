@@ -59,7 +59,7 @@ function print_list(){
     <nav
       class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5"
     >
-      <a href="index.html" class="navbar-brand d-block d-lg-none">
+      <a href="#" class="navbar-brand d-block d-lg-none">
         <h1 class="font-secondary text-white mb-n2">
           Nayeon<span class="text-primary">'s</span> Farewell
         </h1>
@@ -82,15 +82,13 @@ function print_list(){
           <!-- <a href="#story" class="nav-item nav-link">Story</a> -->
           <a href="#gallery" class="nav-item nav-link">Gallery</a>
         </div>
-        <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+        <a href="#" class="navbar-brand mx-5 d-none d-lg-block">
           <h1 class="font-secondary text-white mb-n2">
             Nayeon<span class="text-primary">'s</span> Farewell
           </h1>
         </a>
         <div class="navbar-nav mr-auto py-0">
-          <a href="#family" class="nav-item nav-link">Family</a>
           <a href="#event" class="nav-item nav-link">Event</a>
-          <a href="#rsvp" class="nav-item nav-link">RSVP</a>
           <a href="#guest" class="nav-item nav-link">Guests</a>
         </div>
       </div>
@@ -163,7 +161,7 @@ function print_list(){
                   Nayeon's Farewell
                 </h1>
                 <h1 class="display-1 nanum-gothic text-white mt-n3 mb-md-4">
-                  나연 송별회
+                  초대장
                 </h1>
                 <div
                   class="d-inline-block border-top border-bottom border-light py-3 px-4"
@@ -204,7 +202,7 @@ function print_list(){
                   Nayeon's Farewell
                 </h1>
                 <h1 class="display-1 nanum-gothic text-white mt-n3 mb-md-4">
-                  나연 송별회
+                  초대장
                 </h1>
                 <div
                   class="d-inline-block border-top border-bottom border-light py-3 px-4"
@@ -308,9 +306,14 @@ function print_list(){
               <h3 class="mb-3">금나연</h3>
               <p>
                 안녕하심니까! 금나연입니다! 여러분을 모시게 되어 대단히
-                영광입니다
+                영광입니다!
               </p>
               <div class="position-relative">
+                <a
+                  class="btn btn-outline-primary btn-square"
+                  href="https://www.instagram.com/nayeongold/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
                 <a
                   class="btn btn-outline-primary btn-square mr-1"
                   href="https://github.com/NayeonKeum"
@@ -321,11 +324,7 @@ function print_list(){
                   href="www.linkedin.com/in/nayeonkeum"
                   ><i class="fab fa-linkedin-in"></i
                 ></a>
-                <a
-                  class="btn btn-outline-primary btn-square"
-                  href="https://www.instagram.com/nayeongold/"
-                  ><i class="fab fa-instagram"></i
-                ></a>
+                
               </div>
             </div>
           </div>
@@ -345,7 +344,7 @@ function print_list(){
     <div
       class="container-fluid bg-gallery"
       id="gallery"
-      style="padding: 120px 0; margin: 90px 0; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img-gallery2.jpg), no-repeat center center;"
+      style="padding: 120px 0; margin: 90px 0; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img-gallery2.jpg), no-repeat center center;background-size: cover;"
     >
       <div
         class="section-title position-relative text-center"
@@ -490,7 +489,7 @@ function print_list(){
     <!-- Event End -->
 
     <!-- Friends & Family Start -->
-    <div class="container-fluid py-5" id="family">
+    <div class="container-fluid py-5" id="guest">
       <div class="container pt-5 pb-3">
         <div class="section-title position-relative text-center">
           <h6
@@ -555,7 +554,7 @@ function print_list(){
     <!-- Footer Start -->
     <div
       class="container-fluid bg-dark text-white py-5"
-      id="guest"
+      id="footer"
       style="margin-top: 90px"
     >
       <div class="container text-center py-5">
