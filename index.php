@@ -472,7 +472,7 @@ function print_list(){
             <p class="mb-2">테마는 없으나 금지 의류가 존재합니다.</p>
             <h5 class="font-weight-normal text-muted mb-3 pb-3">
               <a href="https://youtu.be/KdyTVoHHIFE?si=ULSNiA0mF-o9Lxik"
-                >❌ 🧦회색 후드, 체크 셔츠👔 ❌</a
+                >❌ 🧦회색 후드 ❌</a
               >
             </h5>
           </div>
@@ -524,10 +524,7 @@ function print_list(){
           print_list();
           ?>
         </div>
-      
-        <div class="section-title position-relative text-center">
-          <h3 class="nanum-gothic">폼</h3>
-        </div>
+        <hr/>
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="text-center">
