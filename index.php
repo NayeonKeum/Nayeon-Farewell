@@ -361,6 +361,12 @@ function print_list(){
       </div>
       <div class="owl-carousel gallery-carousel">
         <div class="gallery-item">
+          <img class="img-fluid w-100" src="img/img-friend0.jpg" alt="" />
+          <a href="img/img-friend0.jpg" data-lightbox="gallery">
+            <i class="fa fa-2x fa-plus text-white"></i>
+          </a>
+        </div>
+        <div class="gallery-item">
           <img class="img-fluid w-100" src="img/img-friend1.jpg" alt="" />
           <a href="img/img-friend1.jpg" data-lightbox="gallery">
             <i class="fa fa-2x fa-plus text-white"></i>
@@ -429,6 +435,18 @@ function print_list(){
         <div class="gallery-item">
           <img class="img-fluid w-100" src="img/img-friend12.jpg" alt="" />
           <a href="img/img-friend12.jpg" data-lightbox="gallery">
+            <i class="fa fa-2x fa-plus text-white"></i>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img class="img-fluid w-100" src="img/img-friend13.jpg" alt="" />
+          <a href="img/img-friend13.jpg" data-lightbox="gallery">
+            <i class="fa fa-2x fa-plus text-white"></i>
+          </a>
+        </div>
+        <div class="gallery-item">
+          <img class="img-fluid w-100" src="img/img-friend14.jpg" alt="" />
+          <a href="img/img-friend14.jpg" data-lightbox="gallery">
             <i class="fa fa-2x fa-plus text-white"></i>
           </a>
         </div>
