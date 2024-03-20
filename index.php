@@ -450,6 +450,12 @@ function print_list(){
             <i class="fa fa-2x fa-plus text-white"></i>
           </a>
         </div>
+        <div class="gallery-item">
+          <img class="img-fluid w-100" src="img/img-friend15.jpg" alt="" />
+          <a href="img/img-friend15.jpg" data-lightbox="gallery">
+            <i class="fa fa-2x fa-plus text-white"></i>
+          </a>
+        </div>
       </div>
     </div>
     <!-- Gallery End -->
@@ -528,7 +534,7 @@ function print_list(){
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="text-center">
-              <p>수정을 지원하지 않으니 신중한 작성.. 부탁드립니다 🙏</p>
+              <p>수정을 지원하지 않으니 신중한 작성.. 부탁드립니다 🙏<br/>(필요 시 직접 문의)</p>
               <form action="create_process.php" method="post" class="js-form form">
                 <div class="form-row">
                   <div class="form-group col-sm-6">
